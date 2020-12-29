@@ -1,0 +1,22 @@
+﻿@page "/"
+@using Hangfire
+<h1>Hello, world!</h1>
+<button @onclick="Stop">Stop job</button>
+<button @onclick="Start">Start job</button>
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@code{
+
+    [Inject] public IBackgroundJobClient backgroundJobClient { get; set; }
+    [Inject] public IRecurringJobManager recurringJobManager { get; set; }
+    private void Stop()
+    {
+        recurringJobManager.RemoveIfExists("recurringJobid1");
+    }
+    private void Start()
+    {
+        //recurringJobManager.AddOrUpdate("recurringJobid1",
+    }
+}

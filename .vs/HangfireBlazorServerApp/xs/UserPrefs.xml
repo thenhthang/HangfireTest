@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{E320E48D-9D10-4653-A336-1C85259F4B1A}|Default">
+  <MonoDevelop.Ide.ItemProperties.HangfireBlazorServerApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HangfireBlazorServerApp/Startup.cs">
+    <Files>
+      <File FileName="HangfireBlazorServerApp/Services/MailManagerService.cs" Line="26" Column="13" />
+      <File FileName="HangfireBlazorServerApp/Startup.cs" Line="46" Column="19" />
+      <File FileName="HangfireBlazorServerApp/Services/MailService.cs" />
+      <File FileName="HangfireBlazorServerApp/Pages/Index.razor" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HangfireBlazorServerApp" expanded="True">
+            <Node name="HangfireBlazorServerApp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
